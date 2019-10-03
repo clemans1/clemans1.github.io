@@ -1,0 +1,32 @@
+
+
+li{
+    float: left;
+    margin: 10px;
+    text-decoration: none;
+    padding-left: 0;
+    list-style: none;
+}
+
+.active{
+    background: yellow; 
+    
+}
+
+h1{
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+header{
+    text-align: right;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
