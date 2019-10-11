@@ -5,6 +5,8 @@ a{
     padding-left: 0;
     list-style: none;
     text-align: center;
+    display: block;
+     transition: 0.7s;
 }
 
 .active{
@@ -18,6 +20,9 @@ ul{
     justify-content: space-around;
     background: beige;
     border-style: solid;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
 }
 
 h1{
