@@ -1,5 +1,5 @@
-@media only screen and (min-width: 32.5em){
-    .navigation {
+@media only screen and (min-width: 32.5em) {
+	.navigation {
 		display: flex;
 	}
 	.navigation li:first-child {
@@ -9,5 +9,46 @@
 		display: block;
 		flex: 1 1 100%;
 	}
-	
+	.navigation li a {
+		color: white;
+    }
+    
+    
+    
+    header{
+        text-align: center;
+        background-color:#F4976C;
+        height: auto;
+        padding: 20px;
+        
+        
+    }
+    
+    
+    h1{
+        text-align: center;
+    }
+    footer{
+        
+        margin-top: 20px;
+      
+    }
+    
+    img{
+       
+        height: 75px;
+        
+    }
+    
+    
+    
+    section li{
+        
+        padding-left: 15px;
+       
+        font-size: 35px;
+        margin-top: 10px;
+        
+    }
+    
 }
