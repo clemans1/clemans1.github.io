@@ -17,10 +17,17 @@
     
     header{
         text-align: center;
-        background-color:#F4976C;
-        height: auto;
-        padding: 20px;
-        
+    background-color:#FBE8A6;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    display: block;
         
     }
     

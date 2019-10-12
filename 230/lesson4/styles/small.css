@@ -11,13 +11,27 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: block;
 }
 
 
 h1{
     text-align: center;
+    grid-column: 2/3;
+    grid-row: 3/4;
+   
+
 }
+
+h3{
+    grid-column: 2/3;
+    grid-row: 2/3;
+   
+}
+
 footer{
     text-align: center;
     margin-top: 20px;
@@ -25,9 +39,10 @@ footer{
 }
 
 img{
-    float: left;
     height: 75px;
     width: auto;
+    grid-column: 2/3;
+    grid-row: 1/2;
 }
 
 body{
@@ -78,11 +93,9 @@ nav {
 	text-decoration: none;
 }
 .navigation a:hover {
-	color: #F4976C;;
-	background-color: #fff;
+	color: white;
 	font-weight: 700;
 }
-
 
 .responsive li {
 	display: block;
