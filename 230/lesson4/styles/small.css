@@ -20,17 +20,9 @@ header{
 
 h1{
     text-align: center;
-    grid-column: 2/3;
-    grid-row: 3/4;
-   
-
 }
 
-h3{
-    grid-column: 2/3;
-    grid-row: 2/3;
-   
-}
+
 
 footer{
     text-align: center;
@@ -41,14 +33,15 @@ footer{
 img{
     height: 75px;
     width: auto;
-    grid-column: 2/3;
-    grid-row: 1/2;
+    
+   
 }
 
 body{
     display: flex;
     display: block;
     background-color: #B4DFE5;
+    font-family: 'Indie Flower', cursive;
 }
 
 section li{
