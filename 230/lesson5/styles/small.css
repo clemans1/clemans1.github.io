@@ -1,7 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-}
 
 header{
     text-align: center;
@@ -11,10 +7,10 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     display: block;
+    line-height: 0;
 }
 
 
@@ -25,39 +21,52 @@ h1{
 
 
 footer{
-    text-align: center;
-    margin-top: 20px;
     background-color:#F4976C;
+    height: auto;
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
-img{
+article{
+    grid-column: 1/2;
+    text-align: center;
+    justify-content: center;
+}
+
+.cloud{
     height: 75px;
     width: auto;
-    
-   
 }
 
 body{
-    display: flex;
     display: block;
     background-color: #B4DFE5;
     font-family: 'Indie Flower', cursive;
 }
 
 section li{
-    text-align: left;
+    text-align:center;
+    align-content: center;
     text-decoration: none;
     list-style-type: none;
-    padding-left: 15px;
-    border-style: dotted;
+    border: solid;
     font-size: 35px;
     margin-top: 10px;
     background-color: #D2FDFF;
+    height: auto;
+    width: auto;
 }
 
-iframe{
-    float: right;
+table, th, td{
+    border: 1px solid black;
+    height: auto;
+    width: auto;
+    grid-column: 1/4;
 }
+
+
+
 
 
 
@@ -65,9 +74,7 @@ iframe{
 
 
 nav {
-	margin: 0 auto;
-	max-width: 760px;
-	background-color: #F4976C;;
+    background-color: #F4976C;;
 }
 .navigation {
 	list-style: none;
@@ -101,3 +108,41 @@ nav {
 
 
 
+
+#map{
+    
+    grid-column: 2/4;
+    width: 100%;
+}
+
+.herodiv{
+   
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-ph{
+    width: 100%;
+    height: 100%;
+}
+
+.weathersummary{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background: radial-gradient(#D2FDFF,#B4DFE5);
+    border: 3px solid black;
+    padding: .5rem;
+    box-shadow: 0 0 30px
+}
+
+li.tableWeather{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.bod{
+    margin: 50px;
+}
