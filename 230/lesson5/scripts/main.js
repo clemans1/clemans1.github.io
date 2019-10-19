@@ -49,9 +49,25 @@ function toggleMenu() {
 }
 
 // create 5 day forecast
-let day1, day2, day3, day4, day5, day6;
+let currentDay = weekDayNumber;
 
-if (weekDayNumber < 6){
-    day1 = daysOfWeek[weekDayNumber +1];
-    document.getElementById("day2").innerHTML = day2;
+for(let i = 1; i < 6; i++){
+    currentDay++;
+
+    if(currentDay > 6){
+        currentDay = 0;
+    }
+
+    const element = document.getElementById(`day${i}`);
+    //const element = document.getElementById(`day${i}`);
+    element.innerHTML = daysOfWeek[currentDay];
+    
 }
+
+// show/hide pancake
+if(weekDayNumber == 5){
+    document.getElementById("pancake").removeAttribute("class","hidden");
+}
+
+
+
