@@ -5,7 +5,7 @@ main{
 }
 
 img{
-    min-width: 300px;
-    min-height: 200px;
+    min-width: auto;
+    min-height: auto;
     background-color: red;
 }

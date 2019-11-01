@@ -158,12 +158,15 @@ li.tableWeather {
 
 
 
-main #gallery{
+#gallery{
     align-content: center;
     display: grid;
     grid-template-columns: 1fr;
+
 }
 
 img{
     background-color: red;
+    width: 50%;
+    height: 50%;
 }
