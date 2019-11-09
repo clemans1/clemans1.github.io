@@ -23,6 +23,7 @@ footer {
     background-color: #F4976C;
     height: auto;
     width: auto;
+    margin-top: 10px;
 
 }
 
@@ -154,19 +155,26 @@ li.tableWeather {
 
 }
 
+form{
+    max-width: 500px;
+    margin: 0 auto;
+}
 
+label{
+    display: inline-block;
+    min-width: 125px;
 
+}
+form div{
+    margin-top: 5px;   
+}
 
-
-#gallery{
+#radio{
     align-content: center;
-    display: grid;
-    grid-template-columns: 1fr;
-
 }
 
-img{
-    background-color: red;
-    width: 50%;
-    height: 50%;
-}
+
+
+.
+
+
