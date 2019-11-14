@@ -1,0 +1,180 @@
+header {
+    text-align: center;
+    background-color: #FBE8A6;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: block;
+    line-height: 0;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+
+
+footer {
+    background-color: #F4976C;
+    height: auto;
+    width: auto;
+    margin-top: 10px;
+
+}
+
+article {
+    text-align: center;
+   
+}
+
+
+.cloud {
+    height: 75px;
+    width: auto;
+}
+
+body {
+    background-color: #B4DFE5;
+    font-family: 'Indie Flower', cursive;
+}
+
+section li {
+    text-align: center;
+    align-content: center;
+    text-decoration: none;
+    list-style-type: none;
+    border: solid;
+    font-size: 35px;
+    margin-top: 10px;
+    background-color: #D2FDFF;
+    height: auto;
+    width: auto;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    height: auto;
+    width: auto;
+    grid-column: 1/4;
+}
+
+
+
+
+
+
+
+
+
+nav {
+    background-color: #F4976C;
+    ;
+}
+
+.navigation {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    color: black;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: black;
+    font-weight: 700;
+}
+
+.responsive li {
+    display: block;
+}
+
+.active {
+    background: radial-gradient(#D2FDFF, #B4DFE5);
+    font-weight: 700;
+}
+
+
+
+
+
+
+iframe {
+    display: none;
+   
+}
+
+
+.herodiv {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-ph {
+    width: 100%;
+    height: 100%;
+}
+
+.weathersummary {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background: radial-gradient(#D2FDFF, #B4DFE5);
+    border: 3px solid black;
+    padding: .5rem;
+    box-shadow: 0 0 30px
+}
+
+li.tableWeather {
+    display: none;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: auto;
+    width: auto;
+
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+label{
+    display: inline-block;
+    min-width: 125px;
+
+}
+form div{
+    margin-top: 5px;   
+}
+
+#radio{
+    align-content: center;
+}
+
+
+
+.
+
+
