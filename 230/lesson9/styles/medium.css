@@ -16,34 +16,15 @@
         color: white;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     footer {
         background-color: #F4976C;
         height: auto;
         width: auto;
         display: flex
-        
-
-
+  
     }
 
-    article {
-        text-align: center;
-
-    }
+    
 
 
 
@@ -112,6 +93,10 @@
 
 
     main #gallery{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    section{
         grid-template-columns: 1fr 1fr;
     }
 }
