@@ -1,0 +1,172 @@
+header {
+    text-align: center;
+    background-color: #FBE8A6;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: block;
+    line-height: 0;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+
+
+footer {
+    background-color: #F4976C;
+    height: auto;
+    width: auto;
+    margin-top: 10px;
+
+}
+
+.cloud {
+    height: 75px;
+    width: auto;
+}
+
+body {
+    background-color: #B4DFE5;
+    font-family: 'Indie Flower', cursive;
+}
+
+section li {
+    text-align: center;
+    align-content: center;
+    text-decoration: none;
+    list-style-type: none;
+    border: solid;
+    font-size: 35px;
+    margin-top: 10px;
+    background-color: #D2FDFF;
+    height: auto;
+    width: auto;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    height: auto;
+    width: auto;
+    grid-column: 1/4;
+}
+
+nav {
+    background-color: #F4976C;
+    ;
+}
+
+.navigation {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    color: black;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: black;
+    font-weight: 700;
+}
+
+.responsive li {
+    display: block;
+}
+
+.active {
+    background: radial-gradient(#D2FDFF, #B4DFE5);
+    font-weight: 700;
+}
+
+
+
+
+article{
+    text-align: center;
+}
+
+iframe {
+    display: none;
+   
+}
+
+
+
+section{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#fishHavenImage{
+    width: 100px;
+    height:100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+#prestonImage{
+    width: 100px;
+    height:100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+#sodaSpringsImage{
+    width: 100px;
+    height:100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+#sodaSpringsMotto{
+    font-size: 20px;
+}
+
+.fishHaven, .preston, .sodaSprings{
+    margin: 10px;
+    text-align: center;
+    background: darkcyan;
+    
+}
+
+.preston{
+    border: solid black;
+}
+
+.fishHaven{
+    border: solid black;
+}
+
+.sodaSprings{
+    border: solid black;
+}
+
+

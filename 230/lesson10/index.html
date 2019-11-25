@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/230/lesson5/images/favicon.ico">
+    <link rel="stylesheet" href="/230/lesson5/styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="/230/lesson9/styles/large.css">
+
+
+
+    <title> Weather Buddy</title>
+
+</head>
+
+
+<body>
+    <header>
+        <img class="cloud" src="/230/lesson 3/Image/iconfinder_cloud_1055089.png" alt="cloud">
+
+        <h1>Weather Buddy</h1> <br>
+        <h3>We know the weather so you don't have to fear!</h3>
+    </header>
+    <nav>
+
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li class="active"><a href="#"> Home</a></li>
+            <li><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="/230/lesson7/gallery7.html">Gallery</a></li>
+
+        </ul>
+
+    </nav>
+
+   <section class="grid">
+
+        <article class="fishHaven">
+            <h1>Fish haven</h1>
+            <h2 id="fishHavenMotto"></h2>
+            <label>
+                Year Founded:
+                <span id="fishHavenYearFounded"></span>
+            </label>
+            <br>
+            <label>
+                    Population:
+                    <span id="fishHavenCurrentPopulation"></span>
+            </label>
+            <br>
+            <label>
+                    Average Rain Fall:
+                    <span id="averageRainfall"></span>
+            </label>
+            <br>
+            <label>
+                    <img src="" alt="Fish Haven" id="fishHavenImage">
+            </label>
+
+        </article>
+
+        <article class="preston">
+                <h1>Preston</h1>
+                <h2 id="prestonMotto"></h2>
+
+                <label>
+                    Year Founded:
+                    <span id="prestonYearFounded"></span>
+                </label>
+                <br>
+                <label>
+                        Population:
+                        <span id="prestonCurrentPopulation"></span>
+                </label>
+                <br>
+                <label>
+                        Average Rain Fall:
+                        <span id="prestonAverageRainfall"></span>
+                </label>
+                <br>
+                <label>
+                        <img src="" alt="Preston" id="prestonImage">
+                </label>
+        </article>
+
+        <article class="sodaSprings">
+                <h1>Soda Springs</h1>
+                <h2 id="sodaSpringsMotto"></h2>
+        
+                <label>
+                    Year Founded:
+                    <span id="sodaSpringsYearFounded"></span>
+                </label>
+                <br>
+                <label>
+                    Population:
+                    <span id="sodaSpringsCurrentPopulation"></span>
+                </label>
+                <br>
+                <label>
+                    Average Rain Fall:
+                    <span id="sodaSpringsAverageRainfall"></span>
+                </label>
+                <br>
+                <label>
+                    <img src="" alt="Preston" id="sodaSpringsImage">
+                </label>
+    
+        </article>
+
+    </section>
+
+
+
+    <footer>
+        <article>
+         <h3>Contact Information</h3>
+         <p>Address: 1600 Pennsylvania Ave NW, Washington, DC 20500 </p>
+         <p>Email: weather1@gamil.com</p>
+         <p>Phone: 555-555-5555</p>
+         &copy Weather Buddy | Justin Clemans |
+         <span id="currentDate"></span>
+        </article>
+         <div id="map">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2878.9946851061045!2d-111.78557588487524!3d43.81446965000595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540b03dc48a5cf%3A0x1e5534d3c38ef412!2sBrigham%20Young%20University-Idaho!5e0!3m2!1sen!2sus!4v1571071941557!5m2!1sen!2sus" width="842" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+         </div>
+    </footer>
+
+    <script src="scripts/towndata.js"></script>
+    <script src="scripts/homepage.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/webFont.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+
+   <script src="/230/lesson9/images/alturus-1588650_960_720.jpg"></script>
+</body>
+</html>
