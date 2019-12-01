@@ -1,3 +1,4 @@
+function getFiveDayForecast(cityID){
 var daysOfWeek =[
     'Sunday',
     'Monday',
@@ -8,7 +9,7 @@ var daysOfWeek =[
     'Saturday'
 ];
 
-const apiForecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=05510e353b076ec46e67c531e60f2e9a&units=imperial";
+const apiForecastURL = "https://api.openweathermap.org/data/2.5/forecast?id="+ cityID +"&appid=05510e353b076ec46e67c531e60f2e9a&units=imperial";
 
 fetch(apiForecastURL)
     .then(
@@ -50,4 +51,4 @@ fetch(apiForecastURL)
         );
     }
 );
-
+}

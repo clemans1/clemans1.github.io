@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/230/lesson5/images/favicon.ico">
+   
+    <link rel="stylesheet" href="/230/lesson11/styles/small.css">
+    <link rel="stylesheet" href="/230/lesson11/styles/medium.css">
+    <link rel="stylesheet" href="/230/lesson11/styles/large.css">
+
+
+
+
+
+    <title> Weather Buddy</title>
+
+</head>
+
+
+<body onload="getFiveDayForecast('5585010')">
+        
+    <header>
+        <img class="cloud" src="/230/lesson 3/Image/iconfinder_cloud_1055089.png" alt="cloud">
+
+        <h1>Weather Buddy</h1> <br>
+        <h3>We know the weather so you don't have to fear!</h3>
+    </header>
+    <nav>
+
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="homePage.html"> Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="sodaSprings.html">Soda Springs</a></li>
+            <li><a class="active" href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+
+        </ul>
+
+    </nav>
+
+<div class="bod">
+
+    <main>
+        <!--Add Hero Image-->
+        <!--Five-Day Forecast-->
+        <div class="herodiv">
+                <img class="hero-ph"src="/230/lesson11/images/pexels-photo-248880-e1519725716481.jpeg">
+                    
+           
+        
+
+
+        <h1>Weather Summary</h1>
+            <section class="weathersummary">
+                
+                <div>
+                <span>Current Temperature: </span>
+                <span id="currentTemp"></span>
+                </div>
+
+                <div>
+                <span>Wind Speed: </span>
+                <span id="windSpeed"></span>
+                </div>
+
+                <div>
+                <span>Wind Chill</span>
+                <span  id="windChill"></span>
+                </div> 
+            </section>
+    </main>
+
+
+
+    
+        <li class="tableWeather">  
+            <table>
+                <tr>
+                <th>Day</th>
+                <th id="day1"></th>
+                <th id="day2"></th>
+                <th id="day3">Day 3</th>
+                <th id="day4">Day 4</th>
+                <th id="day5">Day 5</th>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td><img id="img1" src="" alt=""></td>
+                    <td><img id="img2" src="" alt=""></td>
+                    <td><img id="img3" src="" alt=""></td>
+                    <td><img id="img4" src="" alt=""></td>
+                    <td><img id="img5" src="" alt=""></td>
+                </tr>
+
+                <tr>
+                    <td id="">Forecast</td>
+                    <td id="temp1"></td>
+                    <td id="temp2"></td>
+                    <td id="temp3"></td>
+                    <td id="temp4"></td>
+                    <td id="temp5"></td>
+                </tr>
+
+
+            </table>
+         </li>
+
+        <li class="info">
+                It's an undiscovered paradise. Most people who drive by recognize the raw beauty of a place ringed by high desert mountains and bordered by the shores of a vast natural lake.
+                In winter the hills outside this small paradise echo with the sharp whine of snow machines and in the summer thousands of tourists ply the lake's bright blue waters with water skis or fishing poles.
+        </a></li>
+   
+
+
+    <section id="event">
+        <p>Up Coming Events</p>
+        <p id="fishHaven1"></p>
+        <p id="fishHaven2"></p>
+        <p id="fishHaven3"></p>
+    </section>
+    
+</div>
+
+    <footer>
+        <article>
+         <h3>Contact Information</h3>
+         <p>Address: 1600 Pennsylvania Ave NW, Washington, DC 20500 </p>
+         <p>Email: weather1@gmail.com</p>
+         <p>Phone: 555-555-5555</p>
+         &copy Weather Buddy | Justin Clemans |
+         <span id="currentDate"></span>
+        </article>
+         <div id="map">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2878.9946851061045!2d-111.78557588487524!3d43.81446965000595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540b03dc48a5cf%3A0x1e5534d3c38ef412!2sBrigham%20Young%20University-Idaho!5e0!3m2!1sen!2sus!4v1571071941557!5m2!1sen!2sus" width="842" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+         </div>
+    </footer>
+
+
+    
+    <script src="/230/lesson10/scripts/main.js"></script>
+    <script src="/230/lesson10/scripts/5-day-forecast.js"></script>
+    <script src="/230/lesson10/scripts/windchill.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="/230/lesson11/scripts/events.js"></script>
+
+</body>
+</html>

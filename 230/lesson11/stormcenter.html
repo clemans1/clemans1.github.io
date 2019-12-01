@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/230/lesson5/images/favicon.ico">
+    <link rel="stylesheet" href="/230/lesson5/styles/normalize.css">
+    <link rel="stylesheet" href="/230/lesson8/styles/small.css">
+    <link rel="stylesheet" href="/230/lesson8/styles/medium.css">
+    <link rel="stylesheet" href="/230/lesson8/styles/">
+
+
+
+    <title> Weather Buddy</title>
+
+</head>
+
+
+<body>
+    <header>
+        <img class="cloud" src="/230/lesson 3/Image/iconfinder_cloud_1055089.png" alt="cloud">
+
+        <h1>Weather Buddy</h1> <br>
+        <h3>We know the weather so you don't have to fear!</h3>
+    </header>
+    <nav>
+
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="homePage.html"> Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="sodaSprings.html">Soda Springs</a></li>
+            <li><a href="fishHaven.html">Fish Haven</a></li>
+            <li class="active"><a href="#">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+
+        </ul>
+
+    </nav>
+
+    <form action="thanks.html" method="GET">
+            <div>
+                <label for="fullName">Full Name:</label>
+                <input type="text" id ="fullName" name="fullName" pattern="[A-Za-z ]{5,}" required>
+            </div>
+    
+            <div>
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" placeholder="user@email.com">
+            </div>
+    
+            <div>
+                <label for="phone">Phone: </label>
+                <input type="tel" id ="phone" name="phone" required>
+            </div>
+    
+            <div>
+                <label for="zipCode">Zip Code: </label>
+                <input type="number" id ="zipCode" name="zipCode" required>
+            </div>
+    
+            <div>
+                <label for="stormDate">Storm Date: </label>
+                <input type="date" id ="stormDate" name="stormDate" required>
+            </div>
+    
+           <div>
+               <label for="stormType">Storm Type: </label>
+               <input list="stormTypes">
+    
+               <datalist id="stormTypes">
+                    <option value="Flash Flood">
+                    <option value="Hail">
+                    <option value="Hurricane">
+                    <option value="Thunderstorm">
+                    <option value="Tornado">
+                </datalist>
+           </div>
+    
+           <div>
+               
+                
+                <label class="stormSeverity" for="rating">Storm Severity:</label>
+                <input type="range" id="stormSeverity" name="stormSeverity" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                <span id="ratingvalue">5</span>
+                    
+            
+                <datalist id="tickmarks">
+                    <option value="0">
+                    <option value="1">
+                    <option value="2">
+                    <option value="3">
+                    <option value="4">
+                    <option value="5">
+                    <option value="6">
+                    <option value="7">
+                    <option value="8">
+                    <option value="9">
+                    <option value="10">
+                </datalist>
+        </div>
+
+            <div>
+                <label for="stormRegion">Storm Severity</label>
+                <select name="stormRegion" id="stormRegion">
+                    <option id="selectRegion" value="" selected disabled>Select Region</option>
+                    <option value="FishHaven">Fish Haven</option>
+                    <option value="Preston">Preston</option>
+                    <option value="SugarCity">Sugar City</option>
+                </select>
+            </div>
+
+            <div>
+                <span>Are you in danger?</span>
+
+
+                <div id="radio">
+                <input id="yes" name="danger" type="radio" value="Yes">
+                <label for="yes">Yes</label>
+                </div>
+
+                <div id="radio">
+                <input id="no" name="danger"  type="radio" value="No">
+                <label for="no">No</label>
+                </div>
+
+                <div id="radio">
+                <input id="maybe" name="danger"  type="radio" value="Maybe">
+                <label for="maybe">Maybe</label>
+                </div>
+                </div>
+            </div>
+
+            <div>
+                <label for="comments" class="moveTop">Comments: </label>
+                <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+            </div>
+           
+    
+            <div>
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+            </div>
+        </form>
+
+    <footer>
+        <article>
+         <h3>Contact Information</h3>
+         <p>Address: 1600 Pennsylvania Ave NW, Washington, DC 20500 </p>
+         <p>Email: weather1@gamil.com</p>
+         <p>Phone: 555-555-5555</p>
+         &copy Weather Buddy | Justin Clemans |
+         <span id="currentDate"></span>
+        </article>
+    </footer>
+
+    <script src="/230/lesson8/scripts/stormCenter.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="/230/lesson6/scripts/windchill.js"></script>
+    <script src="scripts/webFont.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+</body>
+</html>

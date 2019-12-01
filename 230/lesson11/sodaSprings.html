@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/230/lesson5/images/favicon.ico">
+   
+    <link rel="stylesheet" href="/230/lesson11/styles/small.css">
+    <link rel="stylesheet" href="/230/lesson11/styles/medium.css">
+    <link rel="stylesheet" href="/230/lesson11/styles/large.css">
+
+
+
+
+
+    <title> Weather Buddy</title>
+
+</head>
+
+
+<body onload="getFiveDayForecast('5607916')">
+        
+    <header>
+        <img class="cloud" src="/230/lesson 3/Image/iconfinder_cloud_1055089.png" alt="cloud">
+
+        <h1>Weather Buddy</h1> <br>
+        <h3>We know the weather so you don't have to fear!</h3>
+    </header>
+    <nav>
+
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="homePage.html"> Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a class="active" href="#">Soda Springs</a></li>
+            <li><a href="fishHaven.html">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+
+        </ul>
+
+    </nav>
+
+<div class="bod">
+
+    <main>
+        <!--Add Hero Image-->
+        <!--Five-Day Forecast-->
+        <div class="herodiv">
+                <img class="hero-ph"src="/230/lesson11/images/istockphoto-863542630-612x612.jpg">
+                    
+           
+        
+
+
+        <h1>Weather Summary</h1>
+            <section class="weathersummary">
+                
+                <div>
+                <span>Current Temperature: </span>
+                <span id="currentTemp"></span>
+                </div>
+
+                <div>
+                <span>Wind Speed: </span>
+                <span id="windSpeed"></span>
+                </div>
+
+                <div>
+                <span>Wind Chill</span>
+                <span  id="windChill"></span>
+                </div> 
+            </section>
+    </main>
+
+
+
+    
+        <li class="tableWeather">  
+            <table>
+                <tr>
+                <th>Day</th>
+                <th id="day1"></th>
+                <th id="day2"></th>
+                <th id="day3">Day 3</th>
+                <th id="day4">Day 4</th>
+                <th id="day5">Day 5</th>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td><img id="img1" src="" alt=""></td>
+                    <td><img id="img2" src="" alt=""></td>
+                    <td><img id="img3" src="" alt=""></td>
+                    <td><img id="img4" src="" alt=""></td>
+                    <td><img id="img5" src="" alt=""></td>
+                </tr>
+
+                <tr>
+                    <td id="">Forecast</td>
+                    <td id="temp1"></td>
+                    <td id="temp2"></td>
+                    <td id="temp3"></td>
+                    <td id="temp4"></td>
+                    <td id="temp5"></td>
+                </tr>
+
+
+            </table>
+         </li>
+
+        <li class="info">
+                Soda Springs has an abundance of recreational opportunities for individuals and families. Sure many of the bigger cities have every store you could ever want within 20 minutes, but Soda Springs has something that other communities dream of; unlimited recreational opportunities all right in town or within 20 minutes of town!
+                Want to play golf or disc golf? We have a 9-hole golf course at the west enternance of town and an 18-hole disc golf course 5 minutes from downtown on the east side of town.
+                Want to go camping? We have camping starting 15 minutes from town, with most camping being near a creek, river or reservoir.
+                Looking for a good walk or run with beautiful scenery? You have the option of a half a dozen or more paths that start right within the City and many rural roads that run along the mountains and surrounding reservoirs and creeks.
+                Looking for a leisure country drive? You can take a country drive less than 10 minutes from town with hours of backroads and beautiful scenery to take you on an adventure.
+                Looking for shopping opportunities? Soda Springs has many local businesses and vendors to take care of your every day needs with "big-city" shopping within an hour drive and some of the most beautiful views to accompany you on the drive.
+                Check out the navigation bar to the left and see what opportunities and adventures lay ahead for you!
+        </a></li>
+   
+
+
+    <section id="event">
+        <p>Up Coming Events</p>
+        <p id="sodaSprings1"></p>
+        <p id="sodaSprings2"></p>
+        <p id="sodaSprings3"></p>
+    </section>
+    
+</div>
+
+    <footer>
+        <article>
+         <h3>Contact Information</h3>
+         <p>Address: 1600 Pennsylvania Ave NW, Washington, DC 20500 </p>
+         <p>Email: weather1@gmail.com</p>
+         <p>Phone: 555-555-5555</p>
+         &copy Weather Buddy | Justin Clemans |
+         <span id="currentDate"></span>
+        </article>
+         <div id="map">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2878.9946851061045!2d-111.78557588487524!3d43.81446965000595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540b03dc48a5cf%3A0x1e5534d3c38ef412!2sBrigham%20Young%20University-Idaho!5e0!3m2!1sen!2sus!4v1571071941557!5m2!1sen!2sus" width="842" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+         </div>
+    </footer>
+
+
+    
+    <script src="/230/lesson10/scripts/main.js"></script>
+    <script src="/230/lesson10/scripts/5-day-forecast.js"></script>
+    <script src="/230/lesson10/scripts/windchill.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="/230/lesson11/scripts/events.js"></script>
+
+</body>
+</html>
