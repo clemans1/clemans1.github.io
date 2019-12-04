@@ -252,7 +252,7 @@ main{
     background-color: #D2FDFF;
 }
 
-#gallery{
+section{
     align-content: center;
     display: grid;
     grid-template-columns: 1fr;
@@ -262,6 +262,6 @@ main{
 img{
     width: 50%;
     height: 50%;
-
+}
 
 
