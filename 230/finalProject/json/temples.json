@@ -1,0 +1,163 @@
+[
+    
+  {
+  "templeName" : "Manti",
+
+  "address": {
+    "StreetLine1": "200 E 510 N",
+    "StreetLine2": null,
+    "City": "Manti",
+    "State": "UT",
+    "Zip": 84642
+              },
+  "telePhone": "435-835-2291",
+
+  "templeServices" :{"service1": "Clothing rental available",
+                      "service2": "Cafeteria available",
+                      "service3":"No patron housing available",
+                      "service4":"Distribution center nearby"
+  },
+    
+  "history":{
+    "announced": "June 25, 1875",
+    "groundBreaking": "April 25, 1877",
+    "dedicated": "May 21, 1888",
+    "rededicated":"June 14, 1985"
+  },
+
+  "ordinances":{
+      "ordinance1" : "Endowment",
+      "ordinance2" : "Baptisms",
+      "ordinance3" : "Sealing",
+      "ordinance4" : "Initiatory"
+                },
+
+  "closures" : {
+    "closure1" : "Tuesday, 24 December 2019 - Thursday, 26 December 2019",
+    "closure2" : "Tuesday, 31 December 2019"
+  }
+ 
+                                 
+  },
+
+  {
+    "templeName " : "Salt Lake",
+  
+    "address": {
+      "StreetLine1": "50 W North Temple St.",
+      "StreetLine2": null,
+      "City": "Salt Lake City",
+      "State": "UT",
+      "Zip": 84150
+                },
+    "telePhone": "435-835-2291",
+  
+    "templeServices" :{"service1": "Clothing rental available",
+      "service2": "Cafeteria available",
+      "service3":"No patron housing available",
+      "service4":"Distribution center nearby"
+},
+      
+    "history":{
+      "announced": "July 28, 1847",
+      "groundBreaking": "February 14, 1853",
+      "dedicated": "April 6, 1893"
+    },
+  
+    "ordinances":{
+        "ordinance1" : "Endowment",
+        "ordinance2" : "Baptisms",
+        "ordinance3" : "Sealing",
+        "ordinance4" : "Initiatory"
+                  },
+  
+    "closures" : {
+      "closure1" : "Tuesday, 24 December 2019 - Thursday, 26 December 2019",
+      "closure2" : "Tuesday, 31 December 2019"
+    }
+   
+                                   
+    },
+
+    {
+      "templeName " : "San Diego California",
+    
+      "address": {
+        "StreetLine1": "7474 Charmant Dr",
+        "StreetLine2": null,
+        "City": "San Diego",
+        "State": "California",
+        "Zip": 92122
+                  },
+
+      "telePhone": "858-622-0991",
+    
+      "templeServices" :{"service1": "Clothing rental available",
+        "service2": "Cafeteria available",
+        "service3":"No patron housing available",
+        "service4":"Distribution center nearby"
+},
+        
+      "history":{
+        "announced": "April 7, 1984",
+        "groundBreaking": "February 27, 1988",
+        "dedicated": "April 25, 1993"
+      },
+    
+      "ordinances":{
+          "ordinance1" : "Endowment",
+          "ordinance2" : "Baptisms",
+          "ordinance3" : "Sealing",
+          "ordinance4" : "Initiatory"
+                    },
+    
+      "closures" : {
+        "closure1" : "Tuesday, 24 December 2019 - Thursday, 26 December 2019",
+        "closure2" : "Tuesday, 31 December 2019"
+      }
+     
+                                     
+      },
+
+      {
+        "templeName " : "Manhattan New York",
+      
+        "address": {
+          "StreetLine1": "125 Columbus Ave, Fourth Floor",
+          "StreetLine2": null,
+          "City": "New York",
+          "State": "New York",
+          "Zip": 10023
+                    },
+        "telePhone": "917-441-8220",
+      
+        "templeServices" :{"service1": "Clothing rental available",
+          "service2": "Cafeteria available",
+          "service3":"No patron housing available",
+          "service4":"Distribution center nearby"
+},
+          
+        "history":{
+          "announced": "August 7, 200",
+          "groundBreaking": "September 23, 2002",
+          "dedicated": "June 13, 2004"
+        },
+      
+        "ordinances":{
+            "ordinance1" : "Endowment",
+            "ordinance2" : "Baptisms",
+            "ordinance3" : "Sealing",
+            "ordinance4" : "Initiatory"
+                      },
+      
+        "closures" : {
+          "closure1" : "Tuesday, 24 December 2019 - Thursday, 26 December 2019",
+          "closure2" : "Wednesday, 25 December 2019",
+          "closure3" : "Tuesday, 31 December 2019"
+        }
+       
+                                       
+        }
+
+]
+

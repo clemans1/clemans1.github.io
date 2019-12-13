@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    
+    
+    
+    <link rel="stylesheet" href="/230/finalProject/styles/small.css">
+    <link rel="stylesheet" href="/230/finalProject/styles/medium.css">
+    <link rel="stylesheet" href="/230/finalProject/styles/large.css">
+
+    
+
+
+
+    <title> Temple Retreat</title>
+
+</head>
+
+
+<body class="bod">
+
+<header>
+    <img class="topPhoto" src="images/provo-city-center-temple-watercolor-painting.jpg" alt="Temple Picture">
+</header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="mainPage.html"> Home</a></li>
+            <li><a href="temples.html">Temples</a></li>
+            <li class="active"><a href="reservations.html">Reservations</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contactPage.html">Contact Page</a></li>
+        </ul>
+    </nav>
+
+    <form class="mainForm" action="thanks.html" method="GET">
+       
+        <section class="gridTable">
+            <div>
+                <label for="fullName">Full Name:</label>
+                <input type="text" id ="fullName" name="fullName" pattern="[A-Za-z ]{5,}" required>
+            </div>
+    <br>
+            <div>
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" placeholder="user@email.com">
+            </div>
+     <br>
+            <div>
+                <label for="phone">Phone: </label>
+                <input type="tel" id ="phone" name="phone" required>
+            </div>
+    <br>
+            <div>
+                <label for="Home">Home State or Country: </label>
+                <input type="text" id ="Home" name="Home" required>
+            </div>
+    <br>
+            <div>
+                <label for="stormDate">Storm Date: </label>
+                <input type="date" id ="stormDate" name="stormDate" required>
+            </div>
+     <br>
+            <div>
+                    <label for="location">Location: </label>
+                    <input type="text" id ="Home" name="Home" required>
+            </div>
+    <br>
+            <div>
+                    <label for="location">Number of Rooms: </label>
+                    <input type="text" id ="Home" name="Home" required>
+            </div>
+    <br>
+            <div>
+                    <label for="location">Type of Room: </label>
+                    <input type="text" id ="Home" name="Home" required>
+            </div>
+    <br>
+            <div>
+                <p class="comments">Comments or special Accomadations:</p>
+                <label for="comments" class="moveTop"></label>
+                <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+            </div>
+
+
+           
+    
+            <div>
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+            </div>
+
+        </section>
+
+    </form>
+
+
+        <footer>
+                <div class="contactInfo">
+                Contact Information: <br>
+                Email: templestay@temples.com <br>
+                Phone: 555-555-5555 <br>
+                4800 Montgomery Ln #300, Bethesda, MD 20814
+              </div>
+          
+              <iframe class="map" width="75%" height="150" id="gmap_canvas" 
+              src="https://maps.google.com/maps?q=4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814%20&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+              frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+              </iframe>
+            </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
