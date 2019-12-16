@@ -84,6 +84,16 @@ body{
     margin-left: 37%;
 }
 
+.secondMainForm{
+    display: flex;
+    flex-direction: column;
+    border: solid black;
+    width: 20%;
+    padding: 10px;
+    background-color:#68A19B;
+    margin-left: 40%;
+}
+
 .comments{
     margin:auto;
 }

@@ -44,6 +44,7 @@ header{
 .topPhoto{
     width: 150px;
     height: 150px;
+    margin-top: 10px;
 }
 
 .mainPage{
@@ -123,6 +124,16 @@ body{
     margin-left: 10%;
 }
 
+.secondMainForm{
+    display: flex;
+    flex-direction: column;
+    border: solid black;
+    width: 70%;
+    padding: 10px;
+    background-color:#68A19B;
+    margin-left: 10%;
+}
+
 .comments{
     margin:auto;
 }
@@ -172,6 +183,10 @@ body{
     margin: 10px;
 }
 
+.hotel1{
+    width: 99%;
+}
+
 .room2{
     background-color:#68A19B;
     border: solid black;
@@ -179,6 +194,11 @@ body{
     grid-column: 2/3;
     grid-row: 5/6;
     margin: 10px;
+    width: 99%;
+}
+
+.hotel2{
+    width: 90%;
 }
 
 .room3{
@@ -188,6 +208,10 @@ body{
     grid-column: 3/4;
     grid-row: 5/6;
     margin: 10px;
+}
+
+.hotel3{
+    width: 99%;
 }
 
 .contactUs{
@@ -206,6 +230,30 @@ body{
     padding: 10px;
     grid-column: 1/2;
     grid-row: 3/4;
+}
+
+.venu{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    width: 90%;
+    height: 90%;
+    margin: auto;
+}
+
+.table{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    width: 90%;
+    height: 90%;
+    margin: auto;
+}
+
+.food{
+    grid-column: 4/5;
+    grid-row: 3/4;
+    width: 90%;
+    height: 90%;
+    margin: auto;
 }
 
 h1{
@@ -249,5 +297,10 @@ h1{
     padding: 10%;
     background-color:#68A19B;
     border: solid black;
+}
+
+img{
+    width: 200px;
+    height: 200px;
 }
 
